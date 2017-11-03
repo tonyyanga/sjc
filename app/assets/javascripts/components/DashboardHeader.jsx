@@ -1,3 +1,7 @@
+/**
+* @prop name - name of currently logged in user
+*/
+
 class DashboardHeader extends React.Component {
   render() {
     return (
