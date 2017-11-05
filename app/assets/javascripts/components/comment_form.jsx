@@ -7,6 +7,7 @@ class CommentForm extends React.Component {
     let input;
     return (
       <div>
+        <MentionInput />
         <input ref={node => {
             input = node;
           }} />
